@@ -25,7 +25,7 @@ icinga2-web2:
             - icingaweb2
             - icingaweb2-module-doc
             - icingaweb2-module-monitoring
-            - icingaweb2-module-setup
+  # error on debian:          - icingaweb2-module-setup
     iptables.append:
         - table: filter
         - chain: INPUT
